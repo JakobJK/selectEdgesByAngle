@@ -19,7 +19,7 @@ def selectEdgesByAngle(angle):
             v1 = mesh.getPolygonNormal(faces[0])
             v2 = mesh.getPolygonNormal(faces[1])
             deg = v1.angle(v2)
-            if deg <= radians:
+            if deg >= radians:
                 edge_comp.addElement(edgeIte.index())
             edgeIte.next()
         selIte.next()
