@@ -1,6 +1,6 @@
 # Edge Selection by Angle in Maya
 
-This Python script is a utility for Autodesk Maya that allows users to select edges between two faces if the angle between those faces is below a given threshold.
+This Python script is a utility for Autodesk Maya that allows users to select edges between two faces if the angle between those faces is above a given threshold.
 
 ## Function
 
