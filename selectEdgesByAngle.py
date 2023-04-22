@@ -1,7 +1,7 @@
 import math
 import maya.api.OpenMaya as om
 
-def selectEdgesByAngle(angle):
+def main(angle):
     radians = math.radians(angle)
     curSelList = om.MGlobal.getActiveSelectionList()
     selIte = om.MItSelectionList(curSelList)
